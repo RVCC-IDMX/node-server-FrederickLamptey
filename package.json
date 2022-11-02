@@ -13,7 +13,6 @@
   "keywords": [],
   "author": "Frederick Lamptey <flam5343@Stu.raritanval.edu> (https://github.com/RVCC-IDMX/cowsay-FrederickLamptey)",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/node-server-FrederickLamptey/issues"
   },
