@@ -2,7 +2,7 @@
   "name": "server-fredericklamptey",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "keywords": [],
   "author": "Frederick Lamptey <flam5343@Stu.raritanval.edu> (https://github.com/RVCC-IDMX/cowsay-FrederickLamptey)",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/node-server-FrederickLamptey/issues"
   },
