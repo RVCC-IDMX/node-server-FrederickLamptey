@@ -5,25 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      * {
+        * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
       body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+        display: grid;
+        padding: 3em 1em;
+        max-width: 1600px;
+        margin-inline: auto;
+        gap: 2em;
+        line-height: 1.7;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 5rem;
-        background-color: darkslateblue;
-        color: white;
+        font-size: 2rem;
+        background-color: white;
+        color: black;
+      }
+
+      main,
+      header,
+      footer {
+        display: grid;
+        gap: 2rem;
+      }
+
+      header,
+      footer {
+        text-align: center;
+      }
+
+
+      p {
+        max-width: 45em;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 65ch;
       }
     </style>
     <title>Node.js Crash Course</title>
   </head>
   <body>
-    <h1>About</h1>
+    <header>
+      <h1>Love Is beautiful</h1>
+    </header>
+    <main>
+      <p>
+        Have you ever wondered why sometimes you feel like you are not good enough? Well, it's not because of any insecurities you have. It is just because you haven't found love. As a matter of fact, everyone has some sort of insecurities but then again, not everyone is insecure. Those who are not, are the ones who have and are still experiencing love. Love is the only thing that can overshadow one's insecurities. It makes you feel too good enough not just around your loved ones, but also, around strangers and even haters. It gives you the confidence you need in your life. Just try it!
+      </p>
+    </main>
+    <footer>Written by: Frederick Lamptey</footer>
   </body>
 </html>
